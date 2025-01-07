@@ -55,10 +55,6 @@
     max-width: 316px !important;
 }
 
-.mt-10 {
-    margin-top: 10px;
-}
-
 .mt-18 {
     margin-top: 18px !important;
 }
@@ -186,6 +182,7 @@
     padding: 24px;
     border-radius: 24px;
     background: linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%);
+    /* border-right: 4px solid#35343C; */
 }
 
 .section-2 .slick-track {
@@ -239,6 +236,11 @@
     padding-left: 15px;
     cursor: pointer;
     background: #01000B;
+    border: 1px solid;
+
+    border-image: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%) 1;
+
+
 }
 
 .accordion-header.active .arrow {
@@ -273,6 +275,18 @@
 
 .accordion-header.active+.accordion-content {
     display: block;
+    border: 1px solid;
+    border-image: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%) 1;
+
+
+}
+
+.heading {
+    font-size: 72px !important;
+    max-width: 705px;
+    line-height: 86.4px;
+    text-align: center;
+
 }
 
 .circle {
@@ -299,6 +313,13 @@
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
     mask-composite: exclude;
+}
+
+.br {
+    border-right: 1px solid;
+    border-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%) 1;
+
+
 }
 
 @keyframes float {
